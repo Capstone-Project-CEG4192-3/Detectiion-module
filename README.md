@@ -31,5 +31,7 @@ To enable sending data to the API, run the script and start a separate thread fo
 
 ## Acknowledgements
  This project uses the YOLOv5 object detection model implementation by Ultralytics.
+ 
 ParkAid 
+
 Uottawa 2022-2023
