@@ -3,12 +3,18 @@
 This is a Python-based program that detects and counts the number of occupied and free parking spaces in a parking lot. It uses the YOLOv5 object detection model and processes images captured from a camera or a video file. The program can also send data to an API for further processing.
 
 ## Features
+
 Detects occupied and free parking spots in real-time
+
 Supports both video files and camera input
+
 Uses YOLOv5 for object detection
+
 Updates and sends parking data to an API
-Provides the option to track objects in the parking lot
+
+
 Can retrieve images from a remote source using web scraping
+
 ## Dependencies
 OpenCV
 PyTorch
