@@ -90,11 +90,10 @@ class ParkingLotDetector:
         Args:
             data (dict): The parking lot data to send.
         """
-        api_url = "https://park-aid-api.herokuapp.com/parkingSpots/"
-        headers = {"Content-Type": "application/json"}
+        api_url = "https://park-aid-api.herokuapp.com/parkingSpots/?id=" + data['id'] + "&available=" + data['available']
 
         try:
-            response = requests.post(api_url, json=data, headers=headers)
+            response = requests.post(api_url)
             if response.status_code == 200:
 
                 print("Data successfully sent to the API.")
